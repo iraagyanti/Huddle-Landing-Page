@@ -74,7 +74,7 @@ p {
     body {
         background-image: url(images/bg-mobile.svg);
         background-repeat: no-repeat;
-        background-position: 3% -23%;
+        background-position: 3% -20%;
         background-size: 100%;
     }
     /* Header Section */
@@ -87,7 +87,7 @@ p {
     }
     /* Content Section */
      .btn {
-        padding: 2.5% 17%;
+        padding: 2.5% 18%;
     }
     .content-box {
         flex-direction: column;
