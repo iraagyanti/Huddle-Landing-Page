@@ -74,7 +74,7 @@ p {
     body {
         background-image: url(images/bg-mobile.svg);
         background-repeat: no-repeat;
-/*         background-position: 3% -27%; */
+        background-position: 3% -30%;
         background-size: 100%;
     }
     /* Header Section */
@@ -83,7 +83,7 @@ p {
         top: 4%;
     } 
     .huddle-logo {
-        width: 30%;
+        width: 40%;
     }
     /* Content Section */
     .content-box {
@@ -102,10 +102,13 @@ p {
         margin-top: 2.5rem;
         width: 100%;
     }
-
     /* Social Icons Section */
     .social-icons {
         text-align: center;
     }
+    /* Footer Section */
+    .copyright {
+        font-size: 10px;
+}
 
 }
