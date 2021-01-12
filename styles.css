@@ -66,6 +66,7 @@ p {
 /* Footer Section */
 .copyright {
     text-align: center;
+    font-size: 14px;
 }
 
 /* Responsive CSS */
@@ -73,8 +74,8 @@ p {
     body {
         background-image: url(images/bg-mobile.svg);
         background-repeat: no-repeat;
-        background-position: 3% -27%;
-        background-size: 95%;
+/*         background-position: 3% -27%; */
+        background-size: 100%;
     }
     /* Header Section */
     .logo-header {
