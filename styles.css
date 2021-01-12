@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+h1 {
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.5;
+}
+p {
+    padding: 3% 0;
+}
+
+/* Header Section */
+.logo-header {
+    position: absolute;
+    left: 5%;
+    top: 6%;
+    width: 80%;
+} 
+.huddle-logo {
+    width: 18%;
+}
+
+/* Content Section */
+.btn {
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    padding: 2.5% 13%;
+    border-radius: 30px;
+}
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+.content-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12%;
+}
+.mockup-img {
+    width: 88%;
+}
+.mockups {
+    width: 45%;
+}
+.introductory-message {
+    width: 34%;
+}
+
+/* Social Icons Section */
+.social-icons {
+    text-align: right;
+    margin: 1.2rem 2.5rem;
+}
+.icon {
+    margin: 2% 1%;
+}
+.icon:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+/* Footer Section */
+.copyright {
+    text-align: center;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 3% -27%;
+        background-size: 95%;
+    }
+    /* Header Section */
+    .logo-header {
+        left: 13%;
+        top: 4%;
+    } 
+    .huddle-logo {
+        width: 30%;
+    }
+    /* Content Section */
+    .content-box {
+        flex-direction: column;
+        margin: 3.5rem 2rem;
+        text-align: center;
+    }
+    .mockup-img {
+        width: 80%;
+    }
+    .mockups {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .introductory-message {
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+
+    /* Social Icons Section */
+    .social-icons {
+        text-align: center;
+    }
+
+}
